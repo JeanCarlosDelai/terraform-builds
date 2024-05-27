@@ -1,6 +1,6 @@
 location                 = "West Europe"
 account_tier             = "Standard"
 account_replication_type = "LRS"
-resource_group_name      = "resource-group-terraform"
-storage_account_name     = "storage-account-terraform"
+resource_group_name      = "resource-terraform"
+storage_account_name     = "storagejeandelai"
 container_name           = "container-terraform" 

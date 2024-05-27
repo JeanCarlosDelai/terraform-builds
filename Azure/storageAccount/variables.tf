@@ -26,6 +26,10 @@ variable "storage_account_name" {
   description = "Nome da Storage Account na Azure"
   type        = string
   default     = "storage-account-terraform"
+   validation {
+    condition     = length(var.storage_account_name) >= 3 && length(var.storage_account_name) <= 24 && can(regex("^[a-z0-9]+$", var.storage_account_name))
+    error_message = "O nome da conta de armazenamento deve ter entre 3 e 24 caracteres e conter apenas letras minúsculas e números."
+  }
 }
 
 variable "container_name" {
