@@ -34,3 +34,6 @@ A documentação está disponível no [site do Terraform](https://www.terraform.
 
 - Este repositório foi desenvolvido para auxiliar desenvolvedores que estão tendo dificuldades com o Terraform
 - Tem guias e documentação pronta para subir alguns dos principais recursos
+
+# Link de apoio
+ - https://gitlab.com/terraform-basico-ao-avancado
